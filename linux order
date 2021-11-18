@@ -1,3 +1,8 @@
 cmkae version:  cmake -version
 c++ version linux : gcc --version
 创建目录:mkdir MemuName
+c++ 编译： g++ filename.cpp
+c编译: gcc file.c
+rm -rf menuname
+
+安装meshroom ，安装aliceVision，
