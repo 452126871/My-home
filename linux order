@@ -1,1 +1,3 @@
 cmkae version:  cmake -version
+c++ version linux : gcc --version
+创建目录:mkdir MemuName
