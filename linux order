@@ -5,4 +5,4 @@ c++ 编译： g++ filename.cpp
 c编译: gcc file.c
 rm -rf menuname
 
-安装meshroom ，安装aliceVision， alice编译时寻找openExr失败但是已经安装openexr在usr/loca和桌面
+安装meshroom ，安装aliceVision， alice编译时寻找openExr失败但是已经安装openexr在usr/loca和桌面，在window，安装aliceVision，下载boost中一个包失败
