@@ -24,6 +24,8 @@ Path.unlink()　　# 删除文件或目录(目录非空触发异常)
 属性
 Path.parts　　# 分割路径 类似os.path.split(), 不过返回元组
 
+path.name　　　　　　#带后缀的完整文件名
+
 Path.drive　　# 返回驱动器名称
 
 Path.root　　# 返回路径的根目录
