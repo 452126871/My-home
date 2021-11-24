@@ -1,0 +1,8 @@
+to_datetime():将数据按照指定格式转换为日期格式
+pd.strftime() 将日期格式变为str格式；
+datetime.datetime.strptime()：由字符串格式转化为日期格式的函数为:
+reset_index():重置索引或其level
+pd.pivot_table():创建透视表，根据index，value aggfunc,columns，得到该条件下的表；
+DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise'):
+labels是指要删除的标签，一个或者是列表形式的多个，axis是指处哪一个轴，columns是指某一列或者多列，level是指等级，针对多重索引的情况，inplaces是否替换原来的dataframe
+pd.merge:拼接
