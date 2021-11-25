@@ -1,0 +1,16 @@
+Tqdm 是一个快速，可扩展的Python进度条，可以在 Python 长循环中添加一个进度提示信息，用户只需要封装任意的迭代器 tqdm(iterator)。
+
+
+
+example
+
+from tqdm import tqdm
+import time
+
+text = ""
+for char in tqdm(["a", "b", "c", "d"]):
+    time.sleep(0.25)
+    text = text + char
+    
+print(text)
+
