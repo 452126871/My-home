@@ -1,0 +1,29 @@
+seaborn就是在matplotlib基础上面的封装，方便直接传参数调用
+import seaborn as sns
+set_style()用于设置主题
+sns.set_style("whitegrid") #横坐标有标线，纵坐标没有标线，背景白色
+sns.set_style("darkgrid") #默认，横纵坐标都有标线，组成一个一个格子，背景稍微深色
+sns.set_style("dark")#背景稍微深色，没有标线线
+sns.set_style("white")#背景白色，没有标线线
+sns.set_style("ticks") #xy轴都有非常短的小刻度
+sns.despine(offset=30,left=True) #去掉上边和右边的轴线，offset=30表示距离轴线（x轴）的距离,left=True表示左边的轴保留
+
+
+set()函数用来设置背景，调色板
+sns.set(style="white", palette="muted", color_codes=True)  
+
+
+distplot() hist 加强版 ; kdeplot()
+sns.distplot(df_iris['petal length'], ax = axes[0], kde = True, rug = True)        # kde 密度曲线  rug 边际毛毯
+sns.kdeplot(df_iris['petal length'], ax = axes[1], shade=True)                     # shade  阴影  
+
+
+boxplot( ) 箱型图
+
+jointplot( )联合分布
+
+heatmap( )热点图
+
+pairplot()
+
+FacetGrid( )
