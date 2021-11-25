@@ -1,4 +1,8 @@
 
 python module
 pathlib 面向对象的文件路径系统
-
+gc 模块
+pickle 将对象以文件的形式存放在磁盘上
+seaborn 在matplotlib基础上面的封装，方便直接传参数调用
+Tqdm 是一个快速，可扩展的Python进度条，可以在 Python 长循环中添加一个进度提示信息，用户只需要封装任意的迭代器 tqdm(iterator)。
+itertools 迭代器相关
