@@ -12,3 +12,9 @@ sklearn.preprocessing.normalize(X, norm='l2', axis=1, copy=True, return_norm=Fal
 sklearn.preprocessing.Binarizer(threshold=0.0, copy=True)
 sklearn.preprocessing.OneHotEncoder(n_values='auto', categorical_features='all', dtype=<type 'numpy.float64'>, sparse=True, handle_unknown='error')
 sklearn.preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0, verbose=0, copy=True)
+
+
+
+preprocessing.LabelEncoder使用
+le = preprocessing.LabelEncoder()    #获取一个LabelEncoder
+le = le.fit(["male", "female"])      #训练LabelEncoder, 把male编码为0，female编码为1
