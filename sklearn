@@ -1,1 +1,14 @@
 GradientBoostingRegressor：梯度决策树模型
+
+preprocessing
+
+https://www.cnblogs.com/nobbyoucanyouup/p/9015940.html
+
+sklearn.preprocessing.scale(X, axis=0, with_mean=True,with_std=True,copy=True) 
+sklearn.preprocessing.StandardScaler(copy=True, with_mean=True, with_std=True) scaler = preprocessing.StandardScaler().fit(X_train)
+sklearn.preprocessing.MinMaxScaler(feature_range=(0, 1), copy=True)
+sklearn.preprocessing.minmax_scale(X, feature_range=(0, 1), axis=0, copy=True) 
+sklearn.preprocessing.normalize(X, norm='l2', axis=1, copy=True, return_norm=False)
+sklearn.preprocessing.Binarizer(threshold=0.0, copy=True)
+sklearn.preprocessing.OneHotEncoder(n_values='auto', categorical_features='all', dtype=<type 'numpy.float64'>, sparse=True, handle_unknown='error')
+sklearn.preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0, verbose=0, copy=True)
