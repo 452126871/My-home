@@ -6,3 +6,12 @@ pd.pivot_table():创建透视表，根据index，value aggfunc,columns，得到�
 DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise'):
 labels是指要删除的标签，一个或者是列表形式的多个，axis是指处哪一个轴，columns是指某一列或者多列，level是指等级，针对多重索引的情况，inplaces是否替换原来的dataframe
 pd.merge:拼接
+
+DataFrame.drop_duplicates(subset=None, keep='first', inplace=False)
+subset : column label or sequence of labels, optional
+用来指定特定的列，默认所有列
+keep : {‘first’, ‘last’, False}, default ‘first’
+删除重复项并保留第一次出现的项
+inplace : boolean, default False
+是直接在原来数据上修改还是保留一个副本
+loc函数根据索引取得对应索引的值
