@@ -18,3 +18,5 @@ sklearn.preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0, ver
 preprocessing.LabelEncoder使用
 le = preprocessing.LabelEncoder()    #获取一个LabelEncoder
 le = le.fit(["male", "female"])      #训练LabelEncoder, 把male编码为0，female编码为1
+
+sklearn.model_selection。这个模块主要是对数据的分割，以及与数据划分相关的功能
