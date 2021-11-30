@@ -4,5 +4,6 @@ c++ version linux : gcc --version
 c++ 编译： g++ filename.cpp
 c编译: gcc file.c
 rm -rf menuname
+sudo apt get build-deb packagename ,为packagename配置编译环境
 
 安装meshroom ，安装aliceVision， alice编译时寻找openExr失败但是已经安装openexr在usr/loca和桌面，在window，安装aliceVision，下载boost中一个包失败
